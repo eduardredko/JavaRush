@@ -24,7 +24,7 @@ public class Solution
 
         System.out.print(student.firstName+" "+student.middleName+" "+student.lastName);
     }
-
+ 
     public static class Student
     {
         public String firstName;
