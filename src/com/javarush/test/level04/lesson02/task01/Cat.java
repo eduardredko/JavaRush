@@ -8,6 +8,6 @@ public class Cat {
     private String name;
 
     public void setName(String name) {
-        //напишите тут ваш код
+        this.name = name;//напишите тут ваш код
     }
 }
