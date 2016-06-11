@@ -23,7 +23,15 @@ public class Solution
 {
     public static void main(String[] args) throws Exception
     {
-        //напишите тут ваш код
+       BufferedReader reader = new  BufferedReader(new InputStreamReader(System.in));
+        double t1 = Double.parseDouble(reader.readLine());
+
+        if ((t1 % 5 >= 0) && (t1 % 5 <3))
+            System.out.println("зеленый");
+        if ((t1 % 5 >= 3) && (t1 % 5 < 4))
+            System.out.println("желтый");
+        if ((t1 % 5 >= 4) && (t1 % 5 < 5))
+            System.out.println("красный");//напишите тут ваш код
 
     }
 }
